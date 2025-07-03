@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     extend: {
-      color: {
+      colors: {
         primary: "#10B981",    // Verde esmeralda principal
         secondary: "#047857",  // Verde esmeralda oscuro
         background: "#D1FAE5", // Verde esmeralda claro (fondo)
@@ -14,7 +14,7 @@ export default {
       },
 
       backgroundImage: {
-        'gradient-primary': 'linear-gradient(to right, #f4a44f, #ac573f)',
+        'gradient-primary': 'linear-gradient(to right, #10B981, #047857)',
       },
     },
   },

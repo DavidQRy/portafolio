@@ -33,7 +33,7 @@ const NavBar = () => {
 
   return (
     <nav className='container mx-auto sticky top-5 z-10'>
-      <div className='flex items-center justify-between rounded-full bg-white/25 border border-[#fee6cc] backdrop-blur-[10px] m-5 p-3 md:p-0'>
+      <div className='flex items-center justify-between rounded-full bg-white/25 border border-[#10B981] backdrop-blur-[10px] m-5 p-3 md:p-0'>
         {/* logo */}
         <img className='h-7 ml-6 -mb-1' src={LOGO} alt="Logo" />
 
