@@ -1,4 +1,4 @@
-# Portfolio Developer - [Tu Nombre]
+# Portfolio Developer - David Quintero
 
 🌟 **Desarrollador Full Stack** | React · Node.js · Tailwind CSS  
 
