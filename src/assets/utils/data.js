@@ -49,6 +49,12 @@ export const ABOUT_ME = {
   ]
 };
 
+export const STATS = [
+    {id: "1", value: "3+", label: "Años de experiencia" },
+    {id: "2", value: "30+", label: "Proyectos completados" },
+    {id: "3", value: "Full-Stack", label: "Especialización" }
+  ]
+
 // // Skills Tabs
 // export const skillTabs = [
 //   { id: "01", label: "All", value: "all" },

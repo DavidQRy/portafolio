@@ -1,9 +1,13 @@
 import React from 'react'
-import PROFILE_PIC from '../images/profile.png'
-// import ICON_1 from "./assets/images/icon-1.png";
-// import ICON_2 from "./assets/images/icon-2.png";
-// import ICON_3 from "./assets/images/icon-3.png";
-// import ICON_4 from "./assets/images/icon-4.png";
+import PROFILE_PIC from '../images/profile-removebg-preview.png'
+import ICON_1 from "../images/icon-1.png";
+import ICON_2 from "../images/icon-2.png";
+import ICON_3 from "../images/icon-3.png";
+import ICON_4 from "../images/icon-4.png";
+import ICON_5 from "../images/icon-5.png";
+import ICON_6 from "../images/icon-6.png";
+import {STATS} from "../utils/data.js"
+import StatInfoCard from '../components/StatInfoCard.jsx';
 
 export const Hero = () => {
   return (
@@ -42,9 +46,47 @@ export const Hero = () => {
           </div> */}
         </div>
 
-        <div className="">
-            <img src={PROFILE_PIC} alt="Profile pic" />
+        <div className="w-[300px] md:w-[370px] h-[350px] md:h-[420px] bg-green-100/50 rounded-3xl relative order-1 lg:order-2">
+            <div className='profile-pic'>
+              <img src={PROFILE_PIC} alt="Profile pic" className=''/>
+            </div>
+
+            <img 
+              src={ICON_1}
+              alt="icon 1"
+              className='icon-img left-[-40px] bottom-20 rotate-[1.75deg]'
+            />
+            <img 
+              src={ICON_2}
+              alt="icon 2"
+              className='icon-img left-5 bottom-[-18px] rotate-[2.75deg]'
+            />
+            <img 
+              src={ICON_3}
+              alt="icon 3"
+              className='icon-img left-[200px] bottom-[-28px] rotate-[3.75deg]'
+            />
+            <img 
+              src={ICON_4}
+              alt="icon 4"
+              className='icon-img icon-img left-[268px] lg:left-[326px] md:left-[326px] bottom-[38px] rotate-[4.75deg]'
+            />
+            <img 
+              src={ICON_5}
+              alt="icon 1"
+              className='icon-img icon-img left-[268px] lg:left-[347px] md:left-[348px] bottom-[184px] rotate-[4.75deg]'
+            />
+            <img 
+              src={ICON_6}
+              alt="icon 1"
+              className='icon-img icon-img left-[-30px] bottom-[238px] rotate-[3.75deg]'
+            />
         </div>
+      </div>
+      <div className='flex gap-12 mt-16 md:mt-24 flex-wrap'>
+        {STATS.map((item) => {
+          return (<StatInfoCard key={item.id} value={item.value} label={item.label} />)
+        })}
       </div>
     </section>
   );
