@@ -28,7 +28,7 @@
   
   .menu-item::before {
     content: '';
-    @apply absolute w-0 h-[3px] bg-gradient-primary rounded-full -bottom-1 left-0 transition-all duration-300;
+    @apply absolute w-0 h-[3px] bg-gradient-primary rounded-full -bottom-1 left-0 transition-all duration-300 ;
   }
   
   .menu-item:hover::before {
@@ -62,4 +62,7 @@
     @apply scale-105 rotate-0;
   }
 
+  .section-title {
+    @apply text-[20px] font-semibold text-left text-center bg-gradient-primary bg-clip-text text-transparent;
+  }
 }
