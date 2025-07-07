@@ -65,4 +65,8 @@
   .section-title {
     @apply text-[20px] font-semibold text-left text-center bg-gradient-primary bg-clip-text text-transparent;
   }
+
+  /* .group-hover:hover {
+    @apply rotate-12 scale-100 translate-y-[-2px] text-primary
+  } */
 }

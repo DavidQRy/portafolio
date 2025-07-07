@@ -36,11 +36,18 @@ export const MENU_LINKS = [
 
 // About Me Section
 export const ABOUT_ME = {
-  content: [
-    "Soy un Desarrollador Full-Stack apasionado por crear soluciones web completas.",
-    "Mi viaje comenzó con el frontend, pero descubrí que amo tanto el backend como el frontend.",
-    "Especializado en JavaScript (React, Node.js), disfruto crear aplicaciones desde la base de datos hasta la interfaz."
-  ],
+  content: `
+Soy David, un Desarrollador Full-Stack apasionado por crear soluciones web completas y eficientes. 
+Mi viaje en el desarrollo comenzó con el frontend, pero rápidamente descubrí mi pasión por ambos lados del desarrollo, disfrutando tanto del diseño de interfaces atractivas como de la lógica robusta del backend.
+
+Especializado en el ecosistema JavaScript, domino tecnologías como React y Next.js para el frontend, junto con Node.js y Express para construir APIs RESTful. En el backend, también tengo experiencia con PHP y sistemas de bases de datos tanto SQL como NoSQL.
+
+Lo que más me motiva es encontrar ese punto perfecto donde el diseño elegante se encuentra con la arquitectura técnica sólida. Creo firmemente en desarrollar aplicaciones que no solo funcionen bien, sino que también ofrezcan experiencias de usuario excepcionales.
+
+Más allá del código, me apasiona aprender constantemente, mantenerme actualizado con las últimas tendencias tecnológicas y compartir conocimiento con la comunidad de desarrolladores. Mi enfoque combina la atención al detalle del frontend con la mentalidad analítica del backend, permitiéndome crear soluciones integrales.
+
+Tengo experiencia trabajando con metodologías ágiles, control de versiones con Git, y despliegue de aplicaciones en entornos cloud. Siempre busco escribir código limpio, mantenible y bien documentado.
+`,
   socialLinks: [
     { id: "1", label: "Facebook", icon: FaFacebook, link: "#" },
     { id: "2", label: "Instagram", icon: FaInstagram, link: "#" },
@@ -49,8 +56,8 @@ export const ABOUT_ME = {
     { id: "5", label: "GitHub", icon: FaGithub, link: "#" }
   ],
   contactInfo: {
-    email: "contacto@midominio.com",
-    phone: "+34 123 456 789",
+    email: "davidgui393@gamil.com",
+    phone: "+57 302 326 34 11",
     website: "https://midominio.com"
   },
   stats: [
