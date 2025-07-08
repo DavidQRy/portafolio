@@ -221,6 +221,105 @@ export const SKILLS = [
 }
 ];
 
+import PROJECT_IMG_9 from '../images/portafolio_develoment.png'
+import PROJECT_IMG_7 from '../images/sistema_membresias.png'
+import PROJECT_IMG_6 from '../images/APIMOVIE.png'
+import PROJECT_IMG_8 from '../images/chat_envivo.png'
+
+export const PROJECTS = [
+  // Proyectos en proceso (más relevantes primero)
+  {
+    id: 9,
+    title: "Portfolio Developer (en proceso)",
+    description: "Portafolio profesional con React, Vite y Tailwind CSS",
+    image: PROJECT_IMG_9,
+    tags: ["React", "Vite", "Tailwind CSS"],
+    complexity: 4,
+    inProgress: true
+  },
+  // {
+  //   id: 10,
+  //   title: "Task Manager Full Stack (en desarrollo)",
+  //   description: "Sistema de gestión de tareas con Node, Express y React",
+  //   image: PROJECT_IMG_10,
+  //   tags: ["React", "Node.js", "Express", "MongoDB"],
+  //   complexity: 5,
+  //   inProgress: true
+  // },
+
+  // Proyectos completados (ordenados por complejidad)
+  {
+    id: 7,
+    title: "Sistema de Gestión de Membresías",
+    description: "Sistema completo con roles, autenticación avanzada y notificaciones por correo",
+    image: PROJECT_IMG_7,
+    tags: ["PHP", "MySQL", "Bootstrap", "jQuery", "PHP Mailer"],
+    complexity: 5,
+    features: [
+      "CRUD completo",
+      "Sistema de roles",
+      "Recuperación de contraseña con tokens",
+      "Correos automatizados"
+    ]
+  },
+  {
+    id: 6,
+    title: "API RESTful con MVC",
+    description: "API para sistema de gestión construida con arquitectura MVC",
+    image: PROJECT_IMG_6,
+    tags: ["Node.js", "Express", "MySQL", "MVC"],
+    complexity: 5
+  },
+  {
+    id: 8,
+    title: "Chat en Tiempo Real",
+    description: "Aplicación de chat con WebSockets",
+    image: PROJECT_IMG_8,
+    tags: ["Node.js", "Express", "Socket.io"],
+    complexity: 4
+  },
+  // {
+  //   id: 2,
+  //   title: "Sistema de Gestión de Productos",
+  //   description: "CRUD completo con autenticación y base de datos relacional",
+  //   image: PROJECT_IMG_2,
+  //   tags: ["PHP", "MySQL", "Bootstrap", "JavaScript"],
+  //   complexity: 4
+  // },
+  // {
+  //   id: 4,
+  //   title: "Blog de Notas Personal",
+  //   description: "Sistema de blog con autenticación y CRUD",
+  //   image: PROJECT_IMG_4,
+  //   tags: ["PHP", "MySQL", "Bootstrap"],
+  //   complexity: 3
+  // },
+  // {
+  //   id: 3,
+  //   title: "Frontend Tienda de Ropa",
+  //   description: "Maquetación responsive avanzada para e-commerce",
+  //   image: PROJECT_IMG_3,
+  //   tags: ["HTML5", "CSS3", "Grid", "Flexbox", "Media Queries"],
+  //   complexity: 3
+  // },
+  // {
+  //   id: 1,
+  //   title: "Fanpage de Dragon Ball",
+  //   description: "Página tributo con diseño responsive",
+  //   image: PROJECT_IMG_1,
+  //   tags: ["HTML5", "CSS3"],
+  //   complexity: 2
+  // },
+  // {
+  //   id: 5,
+  //   title: "Fanpage Selección Colombia",
+  //   description: "Sitio informativo sobre la selección de fútbol",
+  //   image: PROJECT_IMG_5,
+  //   tags: ["HTML5", "CSS3", "Bootstrap"],
+  //   complexity: 2
+  // }
+];
+
 // // Projects Data
 // export const projects = [
 //   {
